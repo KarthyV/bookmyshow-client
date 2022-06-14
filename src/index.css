@@ -1,13 +1,146 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #334155 !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.rounded {
+  background-color: rgb(222, 1, 1);
+  border-radius: 50%;
+}
+
+.d-block {
+  height: 400px;
+}
+
+.streamBox {
+  padding: 25px 0 25px 5px !important;
+  margin-left: 10px !important;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.movieImage {
+  max-height: 300px;
+}
+
+.cardTitle {
+  font-size: 18px !important;
+  font-weight: 900 !important;
+}
+
+.h5 {
+  font-weight: 900 !important;
+}
+
+.card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-around !important;
+}
+
+.col {
+  margin: 20px !important;
+}
+
+.booking {
+  flex-direction: row !important;
+  width: 40rem;
+  margin: 35px auto;
+}
+
+.booknow {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  align-content: center !important;
+}
+
+.card-img-top {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+.premium {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: nowrap;
+  color: #000;
+}
+
+.premCol {
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+}
+
+.Footer {
+  min-width: 100% !important;
+  background-color: #334155;
+  display: flex;
+  flex-direction: column;
+}
+
+.listyourshow {
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px 8px;
+}
+
+.customer {
+  background-color: #404043;
+  display: flex;
+  flex-direction: row;
+  color: antiquewhite;
+  justify-content: space-around;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.booknow {
+  color: #fff;
+}
+
+.adminImage {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.btn {
+  margin: 10px 0 !important;
+}
+
+.addMovie {
+  color: #fff !important;
+  padding: 20px;
 }
